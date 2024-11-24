@@ -1,14 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ExemExp 的小站</title>
+    <style>
+        body {
+            font-family: cascadia-mono, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+ 
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+ 
+        header h1 {
+            margin: 0;
+        }
+ 
+        header .buttons {
+            display: flex;
+            align-items: center;
+        }
+ 
+        header .buttons a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+ 
+        header .buttons a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+ 
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+ 
+        .sidebar {
+            flex: 1;
+            max-width: 400px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+ 
+        .main {
+            flex: 3;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .main a {
+            display: block;
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s;
+        }
+        .main a:hover {
+            color: #555;
+        }
+    </style>
 </head>
-<body background="pics/img0_4k.jpg" style="background-repeat:no-repeat; background-attachment:fixed; background-size:100% 100%; ">
-    <a href="https://start-bme.github.io">主页</a>
-    <a href="https://start-bme.github.io/blogs">博客</a>
-    <a href="https://start-bme.github.io/projects">项目</a>
-    <h1>ExemExp 的小站</h1>
-    <p>欢迎来到 ExemExp 的小站！<br/>声明：Virtual 页面可能不是本人编辑！</p>
+<body>
+    <header>
+        <h1>ExemExp 的小站</h1>
+        <div class="buttons">
+            <a href="https://start-bme.github.io/old">旧版</a>
+            <a href="https://start-bme.github.io/projects">项目</a>
+        </div>
+    </header>
+ 
+    <div class="content">
+        <div class="sidebar">
+            <img src="https://i2.hdslb.com/bfs/face/f7d7856789cca0856317cc8d667c3b62c0abfb04.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif" alt="Bilibili Avatar">
+            <h1>ExemExp</h1>
+            <p>你的电脑遇到了你，<br/>需要重新启动。</p>
+            <!-- 您可以根据需要添加更多内容 -->
+        </div>
+        <div class="main">
+             <!-- 超链接不用br/ -->
+            <h1>ExemExp 的博客</h1>
+            <p><i>谁能想到这页面是 AI 造的（<br/>注意：该页面仍在测试，如有问题可返回旧版</i></p>
+            <h1>博客</h1>
+            <a href="https://start-bme.github.io/blogs/4.htm">ExemExp 小站主页已重构   <i>2024.11</i></a>
+            <a href="https://start-bme.github.io/blogs/3.htm">重写完成后一些疑难问题的解答（？）   <i>2023.3</i></a>
+            <a href="https://start-bme.github.io/blogs/2.htm">关于 STR_Tool 重构的通知   <i>2023.1</i></a>
+            <a href="https://start-bme.github.io/blogs/1.htm">梦开始的地方！Start-BME 的小站正式建站！   <i>2023.1</i></a>
+        </div>
+    </div>
 </body>
 </html>
