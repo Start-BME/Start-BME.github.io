@@ -65,7 +65,7 @@
         color: #555;
     }
 </style>
-<body>
+<body onload="compile()">
     <header>
         <h1>ExemExp 的小站</h1>
         <div class="buttons">
@@ -75,14 +75,18 @@
     </header>
     <div class="content">
         <div class="main">
-            <p>Hello1</p>
+            <div id="result"></div>
         </div>
     </div>
+    
 <script type="text/javascript">
-var text = "# Hello World"
+function compile(){
+var text = `# This is test  
+for mark**down**`
 var converter = new showdown.Converter();
 var html = converter.makeHtml(text);
 document.getElementById("result").innerHTML = html;
+}
 </script>
 </body>
 </html>
