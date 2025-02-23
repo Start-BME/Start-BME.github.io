@@ -1,14 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <meta charset="utf-8">
-    <title>项目 - ExemExp 的小站</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExemExp 的小站 - 项目</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+ 
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+ 
+        header h1 {
+            margin: 0;
+        }
+ 
+        header .buttons {
+            display: flex;
+            align-items: center;
+        }
+ 
+        header .buttons a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+ 
+        header .buttons a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        
+        .fontb {
+            font-size: 30px;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+ 
+        .main {
+            flex: 3;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .main a {
+            display: block;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+    </style>
 </head>
 <body>
-    <a href="https://start-bme.github.io">主页</a>
-    <h1>PhiRCode</h1>
-    <p>此项目可帮助您在 Windows 系统上完成对 Phigros 谱面的编辑。<br>下载链接：</p>
-    <a href="https://start-bme.github.io/download/phircode_download.exe" target="_blank">点击下载</a><br/><br/>
-    <a href="https://start-bme.github.io/projects/other.html" target="_blank">其余另见此</a>
+    <header>
+        <h1>ExemExp 的项目</h1>
+        <div class="buttons">
+            <!-- <a href="https://start-bme.github.io/old">旧版</a> -->
+            <a href="https://start-bme.github.io">主页</a>
+            <a href="https://start-bme.github.io/projects/other.html">更多</a>
+        </div>
+    </header>
+ 
+    <div class="content">
+        <div class="main">
+             <!-- 超链接不用br/ -->
+            <h1>PhiRCode</h1>
+        <p>此项目可帮助您在 Windows 系统上完成对 Phigros 谱面的编辑。<br>下载链接：</p>
+        <a href="https://start-bme.github.io/download/phircode_download.exe" target="_blank">点击下载</a><br/>
+        <a href="https://start-bme.github.io/projects/other.html">其余另见此</a>
+        </div>
+    </div>
 </body>
 </html>

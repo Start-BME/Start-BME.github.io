@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>MDTest</title>
+    <title>ExemExp 的小站 - Markdown 转写页面测试</title>
     <script type="text/javascript" src="sd/showdown.min.js"></script>
 </head>
 <style>
@@ -11,6 +11,9 @@
         background-color: #fff;
         margin: 0;
         padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
     }
     header {
         background-color: #000000;
@@ -49,6 +52,7 @@
     .content {
         display: flex;
         flex-wrap: wrap;
+        flex: 1;
     }
     .main {
         flex: 3;
@@ -63,6 +67,16 @@
     }
     .main a:hover {
         color: #555;
+    }
+    footer {
+        background-color: #f0f0f0; /* 浅灰色 */
+        color: #333;
+        text-align: center;
+        padding: 10px;
+        height: 20px; /* 顶栏高度的一半 */
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 </style>
 <body onload="compile()">
@@ -79,6 +93,9 @@
             <div id="result"></div>
         </div>
     </div>
+    <footer>
+        <p>Markdown 转写基于 </p><a href="https://github.com/showdownjs/showdown">Showdown</a><p>. 点击查看 </p><a href="https://Start-BME.github.io/blogs/sd/LICENSE">MIT 协议</a>
+    </footer>
 <!-- Markdown 文字在下面代码的 text 变量里写，支持多行-->
 <script type="text/javascript">
 function compile(){

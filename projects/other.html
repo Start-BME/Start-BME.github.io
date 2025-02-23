@@ -1,21 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <meta charset="utf-8">
-    <title>其它项目 - ExemExp 的小站</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExemExp 的小站 - 其它项目</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+ 
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+ 
+        header h1 {
+            margin: 0;
+        }
+ 
+        header .buttons {
+            display: flex;
+            align-items: center;
+        }
+ 
+        header .buttons a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+ 
+        header .buttons a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        
+        .fontb {
+            font-size: 30px;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+ 
+        .main {
+            flex: 3;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .main a {
+            display: block;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+    </style>
 </head>
 <body>
-    <a href="https://start-bme.github.io">主页</a>
-    <h1>BME PEI Pack+</h1>
-    <p>B站上看到 @未知exe程序 发布了怎样在高版本 Windows 系统中恢复体验指数的方法，但是我下载了恢复组件包后发现不能运行，显示为英语且加载页面失败<br/>于是我就自己去 Windows 8 提取注册表，最终提取 3 个项的注册表，打包为 BME PEI Pack+，添加后成功打开了</p><br/>
-    <p>（先按 @未知exe程序 的步骤搞一遍，再解压 BME PEI Pack+ 添加里面的注册表，提示添加失败不用管，能用了就行）</p>
-    <a href="https://wwtp.lanzoul.com/iOhpG0ly9yhg" target="_blank">点击下载 @未知exe程序 的组件包</a><br/>
-    <a href="https://start-bme.github.io/download/PEIPack+.zip" target="_blank">点击下载 BME PEI Pack+</a><br/><br/>
-    <p>有兴趣可以去B站给 @未知exe程序 点个关注+三连</p>
-    <a href="https://www.bilibili.com/video/BV1zt4y1t7uF">原视频</a><br/>
-    <a href="https://space.bilibili.com/1313919274">@未知exe程序的B站主页</a>
-    <h1>BME Number Scratch API</h1>
-    <p>完全乱写的就很简单<br/>使用方法：导入角色，选择BNSA.sprite3即可在角色代码中编写数字显示内容</p>
-    <a href="https://start-bme.github.io/download/BNSA.sprite3">BNSA Download</a>
+    <header>
+        <h1>ExemExp 的其它项目</h1>
+        <div class="buttons">
+            <!-- <a href="https://start-bme.github.io/old">旧版</a> -->
+            <a href="https://start-bme.github.io">主页</a>
+            <a href="https://start-bme.github.io/projects/other.html">更多</a>
+        </div>
+    </header>
+ 
+    <div class="content">
+        <div class="main">
+            <h1>BME PEI Pack+</h1>
+            <p>B站上看到 @未知exe程序 发布了怎样在高版本 Windows 系统中恢复体验指数的方法，但是我下载了恢复组件包后发现不能运行，显示为英语且加载页面失败<br/>于是我就自己去 Windows 8 提取注册表，最终提取 3 个项的注册表，打包为 BME PEI Pack+，添加后成功打开了</p>
+            <p>（先按 @未知exe程序 的步骤搞一遍，再解压 BME PEI Pack+ 添加里面的注册表，提示添加失败不用管，能用了就行）</p>
+            <a href="https://wwtp.lanzoul.com/iOhpG0ly9yhg" target="_blank">点击下载 @未知exe程序 的组件包</a>
+            <a href="https://start-bme.github.io/download/PEIPack+.zip" target="_blank">点击下载 BME PEI Pack+</a>
+            <p>有兴趣可以去B站给 @未知exe程序 点个关注+三连</p>
+            <a href="https://www.bilibili.com/video/BV1zt4y1t7uF">原视频</a>
+            <a href="https://space.bilibili.com/1313919274">@未知exe程序的B站主页</a>
+            <h1>BME Number Scratch API</h1>
+            <p>完全乱写的就很简单<br/>使用方法：导入角色，选择BNSA.sprite3即可在角色代码中编写数字显示内容</p>
+            <a href="https://start-bme.github.io/download/BNSA.sprite3">BNSA Download</a>
+            <h1>Segoe UI 并存 Pack</h1>
+            <p>里面的 Segoe VT 是 Vista 版，UI 是 10 版，Var 是 11 版</p>
+            <a href="https://start-bme.github.io/download/segoeui.zip">Segoe UI Pack Download</a>
+        </div>
+    </div>
 </body>
 </html>
