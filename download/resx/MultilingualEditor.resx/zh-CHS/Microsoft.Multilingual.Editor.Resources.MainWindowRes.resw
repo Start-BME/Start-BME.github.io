@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TranslationUnitsIsTranslatableColToolTip" xml:space="preserve">
+    <value>可翻译状态</value>
+  </data>
+  <data name="RibbonBtnLockSelectionToolTip" xml:space="preserve">
+    <value>锁定选定的源文本</value>
+  </data>
+  <data name="ErrorMsgXliffFileLoadState" xml:space="preserve">
+    <value>加载 XLIFF 文件时出错。验证状态报告了错误。</value>
+  </data>
+  <data name="ErrorSavingFile" xml:space="preserve">
+    <value>文件保存失败：{0}</value>
+  </data>
+  <data name="TranslationUnitStateNew" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="RibbonBtnClearBuildWarningTitle" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="FilterStateNeedsReviewTitleToolTip" xml:space="preserve">
+    <value>筛选翻译状态为“需要审阅”的资源</value>
+  </data>
+  <data name="XLFFileAlreadyOpened" xml:space="preserve">
+    <value>文件{0}已在 MAT 编辑器的另一个实例中打开。</value>
+  </data>
+  <data name="RibbonBtnPasteToolTip" xml:space="preserve">
+    <value>从剪贴板粘贴文本。</value>
+  </data>
+  <data name="EulaTitle" xml:space="preserve">
+    <value>微软软件许可条款</value>
+  </data>
+  <data name="FilterStateNeedsReviewTitle" xml:space="preserve">
+    <value>筛选器“需要审核”状态</value>
+  </data>
+  <data name="AboutDescription" xml:space="preserve">
+    <value>多语言应用工具包及其用户界面受美国和其他国开始/地区的商标和其他未决或现有知识产权的保护。</value>
+  </data>
+  <data name="RibbonBtnTranslateAllToolTip" xml:space="preserve">
+    <value>翻译所有未翻译的资源</value>
+  </data>
+  <data name="RibbonGrpHeaderFilter" xml:space="preserve">
+    <value>筛选器</value>
+  </data>
+  <data name="TelemetryNo" xml:space="preserve">
+    <value>下降</value>
+  </data>
+  <data name="SuggestionInProgress" xml:space="preserve">
+    <value>建议资源...</value>
+  </data>
+  <data name="RibbonGrpHeaderProperties" xml:space="preserve">
+    <value>性能</value>
+  </data>
+  <data name="ContextMenuLockSelection" xml:space="preserve">
+    <value>锁定选择</value>
+  </data>
+  <data name="TranslationUnitStateNeedsReview" xml:space="preserve">
+    <value>需要审查</value>
+  </data>
+  <data name="CommentDeleteDialogContent" xml:space="preserve">
+    <value>是否要删除此注释？</value>
+  </data>
+  <data name="RibbonBtnCutToolTip" xml:space="preserve">
+    <value>将所选文本剪切到剪贴板。</value>
+  </data>
+  <data name="RibbonBtnPreviousToolTip" xml:space="preserve">
+    <value>移动到上一个资源</value>
+  </data>
+  <data name="AboutAppName" xml:space="preserve">
+    <value>多语言编辑器</value>
+  </data>
+  <data name="TabMessagesToolTip" xml:space="preserve">
+    <value>显示操作消息选项卡内容</value>
+  </data>
+  <data name="FilterStateTranslatedTitle" xml:space="preserve">
+    <value>过滤器“已翻译”状态</value>
+  </data>
+  <data name="RibbonBtnTranslateAllToolTipTitle" xml:space="preserve">
+    <value>全部平移 （Ctrl+Shift+T）</value>
+  </data>
+  <data name="TranslationUnitsCommentColToolTip" xml:space="preserve">
+    <value>注释</value>
+  </data>
+  <data name="ErrorLoadingProvider" xml:space="preserve">
+    <value>加载翻译提供程序时遇到错误。在问题得到解决之前，一个或多个翻译提供商将不可用。
+留言内容：{0}</value>
+  </data>
+  <data name="TranslationUnitStateTranslated" xml:space="preserve">
+    <value>目标语言</value>
+  </data>
+  <data name="TranslationUnitsSourceColToolTip" xml:space="preserve">
+    <value>源资源</value>
+  </data>
+  <data name="RibbonBtnClearBuildWarningToolTipTitle" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="RibbonBtnXliffOpenTitle" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="EditorOnlyAcceptTextOperation" xml:space="preserve">
+    <value>多语言编辑器只接受文本操作。</value>
+  </data>
+  <data name="RibbonBtnHelpTitle" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="RibbonBtnResetFilterToolTipTitle" xml:space="preserve">
+    <value>重置（Ctrl+Shift+R）</value>
+  </data>
+  <data name="RibbonBtnFeedbackToolTipDesc" xml:space="preserve">
+    <value>打开反馈网站</value>
+  </data>
+  <data name="RibbonBtnApplyFilter" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="RibbonBtnXliffOpenToolTip" xml:space="preserve">
+    <value>打开 XLIFF 文件。</value>
+  </data>
+  <data name="ErrorMsgLoadingFiles" xml:space="preserve">
+    <value>加载文件时遇到错误。有关详细信息，请参阅“消息”面板。</value>
+  </data>
+  <data name="RibbonBtnCopyTitle" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="TranslationUnitValidationFailed" xml:space="preserve">
+    <value>翻译字符串验证失败，因为更改导致 XLIFF 数据格式不正确。  常见问题与未手动编码的字符有关。 例如：“&amp;”字符需要输入为“&amp;”，“&lt;”字符需要输入为“&lt;”，“&gt;”字符需要输入为“&gt;”。</value>
+  </data>
+  <data name="RibbonBtnXliffOpenToolTipTitle" xml:space="preserve">
+    <value>打开（Ctrl+O）</value>
+  </data>
+  <data name="TranslationInProgress" xml:space="preserve">
+    <value>正在翻译资源...</value>
+  </data>
+  <data name="TranslationTargetToolTip" xml:space="preserve">
+    <value>已翻译的资源文本（翻译）</value>
+  </data>
+  <data name="TranslationCommentToolTip" xml:space="preserve">
+    <value>开发人员和译员注释</value>
+  </data>
+  <data name="TranslationUnitTagsNotMatch" xml:space="preserve">
+    <value>源字符串和翻译字符串之间的 XLIFF 标记不同。这可能会导致不正确的机器翻译结果。</value>
+  </data>
+  <data name="StateTitle" xml:space="preserve">
+    <value>状态：</value>
+  </data>
+  <data name="RibbonBtnTranslateAllTitle" xml:space="preserve">
+    <value>全部翻译</value>
+  </data>
+  <data name="TranslationUnitStateFinal" xml:space="preserve">
+    <value>最终</value>
+  </data>
+  <data name="RibbonBtnPasteTitle" xml:space="preserve">
+    <value>粘贴</value>
+  </data>
+  <data name="RibbonGrpTranslationTitle" xml:space="preserve">
+    <value>翻译</value>
+  </data>
+  <data name="RibbonBtnNextToolTipTitle" xml:space="preserve">
+    <value>下一行 （Ctrl+&gt;）</value>
+  </data>
+  <data name="SplashOpenStatus" xml:space="preserve">
+    <value>{0:0%} 加载{1}资源...</value>
+  </data>
+  <data name="RibbonBtnFeedbackTitle" xml:space="preserve">
+    <value>反馈</value>
+  </data>
+  <data name="TranslationTanslatableToolTip" xml:space="preserve">
+    <value>指示此资源是否可用于翻译</value>
+  </data>
+  <data name="RibbonBtnSourceChangedToolTipTitle" xml:space="preserve">
+    <value>源已更改</value>
+  </data>
+  <data name="RibbonBtnCutToolTipTitle" xml:space="preserve">
+    <value>剪切 （Ctrl+X）</value>
+  </data>
+  <data name="ErrorConnectTranslationProvider" xml:space="preserve">
+    <value>编辑无法连接到翻译服务。请确保您有有效的互联网连接。</value>
+  </data>
+  <data name="RibbonBtnSourceChanged" xml:space="preserve">
+    <value>源已更改</value>
+  </data>
+  <data name="RibbonBtnPasteToolTipTitle" xml:space="preserve">
+    <value>粘贴 （Ctrl+V）</value>
+  </data>
+  <data name="RibbonBtnSearchNextToolTipTitle" xml:space="preserve">
+    <value>下一页 （F8）</value>
+  </data>
+  <data name="RibbonBtnTranslateToolTip" xml:space="preserve">
+    <value>获取所选资源的翻译</value>
+  </data>
+  <data name="TranslationUnitsCommentColTitle" xml:space="preserve">
+    <value>注释</value>
+  </data>
+  <data name="AboutAppVersion" xml:space="preserve">
+    <value>版本： {0}</value>
+  </data>
+  <data name="RibbonBtnNextToolTip" xml:space="preserve">
+    <value>移动到下一个资源</value>
+  </data>
+  <data name="RibbonCtrlSearchTitle" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="DragDropSingleFileOnly" xml:space="preserve">
+    <value>请限制为一次只能打开一个文件。</value>
+  </data>
+  <data name="SuggestionResultRequestIdColTitle" xml:space="preserve">
+    <value>Seq</value>
+  </data>
+  <data name="RibbonGrpMarkupTitle" xml:space="preserve">
+    <value>标记</value>
+  </data>
+  <data name="RibbonBtnResetFilter" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="RibbonFilterSourceToolTip" xml:space="preserve">
+    <value>筛选源中的匹配项</value>
+  </data>
+  <data name="TranslationUnitIsLocalizableYes" xml:space="preserve">
+    <value>是的</value>
+  </data>
+  <data name="RibbonBtnLockSelectionToolTipTitle" xml:space="preserve">
+    <value>锁定选择（Ctrl+M）</value>
+  </data>
+  <data name="RibbonCtrlFilterToolTipTitle" xml:space="preserve">
+    <value>筛选器（Ctrl+Shift+F）</value>
+  </data>
+  <data name="TranslationUnitsValidationColToolTip" xml:space="preserve">
+    <value>错误指示器</value>
+  </data>
+  <data name="SuggestionResultProviderNameTooltip" xml:space="preserve">
+    <value>提供建议的提供程序</value>
+  </data>
+  <data name="ErrorRibbonAction" xml:space="preserve">
+    <value>错误：{0}</value>
+  </data>
+  <data name="RibbonBtnResetToolTipTitle" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="RibbonBtnSearchPrevious" xml:space="preserve">
+    <value>上一个</value>
+  </data>
+  <data name="FilterStateFinalTitleToolTip" xml:space="preserve">
+    <value>筛选翻译状态为“最终”的资源</value>
+  </data>
+  <data name="CommentsTitle" xml:space="preserve">
+    <value>注释：</value>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>关于多语言编辑器</value>
+  </data>
+  <data name="TranslationStateToolTip" xml:space="preserve">
+    <value>转换状态</value>
+  </data>
+  <data name="TelemetryOption" xml:space="preserve">
+    <value>客户体验改善选项</value>
+  </data>
+  <data name="TranslationProviderErrorFound" xml:space="preserve">
+    <value>一个或多个翻译提供商在处理请求时遇到运行时错误。 您可以继续使用其余提供程序处理请求，但这可能会限制您收到的结果。
+
+是否要继续使用其余提供商？</value>
+  </data>
+  <data name="RibbonBtnSearchNextToolTip" xml:space="preserve">
+    <value>查找下一个匹配项</value>
+  </data>
+  <data name="FilterStateTranslatedTitleToolTip" xml:space="preserve">
+    <value>筛选翻译状态为“已翻译”的资源</value>
+  </data>
+  <data name="TabSuggestionsToolTip" xml:space="preserve">
+    <value>显示相关的翻译建议选项卡内容</value>
+  </data>
+  <data name="RibbonBtnHelpToolTip" xml:space="preserve">
+    <value>显示联机帮助</value>
+  </data>
+  <data name="RibbonBtnSearchPreviousToolTip" xml:space="preserve">
+    <value>查找上一个匹配项</value>
+  </data>
+  <data name="RibbonBtnFeedbackToolTipTitle" xml:space="preserve">
+    <value>提供反馈</value>
+  </data>
+  <data name="TelemetrySettings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="TabStringsToolTip" xml:space="preserve">
+    <value>显示项目的资源选项卡内容</value>
+  </data>
+  <data name="TelemetryPara1" xml:space="preserve">
+    <value>通过与 Microsoft 共享匿名使用情况数据，帮助改进多语言应用工具包编辑器。</value>
+  </data>
+  <data name="TelemetryPara2" xml:space="preserve">
+    <value>如果您接受，我们将收集有关您的硬件配置以及您如何使用我们的软件和服务的信息，以确定趋势和使用模式。</value>
+  </data>
+  <data name="TelemetryPara3" xml:space="preserve">
+    <value>信息收集不会用于识别您的身份或与您联系。您可以随时通过单击“关于|数据收集，用于返回到此对话框。</value>
+  </data>
+  <data name="TelemetryTitle" xml:space="preserve">
+    <value>数据收集</value>
+  </data>
+  <data name="SuggestionResultTargetColTitle" xml:space="preserve">
+    <value>目标</value>
+  </data>
+  <data name="TabSuggestionsTitle" xml:space="preserve">
+    <value>建议</value>
+  </data>
+  <data name="RibbonBtnResetToolTip" xml:space="preserve">
+    <value>重置所选资源的翻译并将翻译状态设置为“新建”</value>
+  </data>
+  <data name="FilterStateNewTitle" xml:space="preserve">
+    <value>筛选“新建”状态</value>
+  </data>
+  <data name="ResourceIdTitle" xml:space="preserve">
+    <value>资源标识：</value>
+  </data>
+  <data name="RibbonBtnHelpToolTipTitle" xml:space="preserve">
+    <value>帮助 （F1）</value>
+  </data>
+  <data name="TabStringsTitle" xml:space="preserve">
+    <value>字符串</value>
+  </data>
+  <data name="DialogXliffFilter" xml:space="preserve">
+    <value>XLIFF files （*.xlf）|*.xlf</value>
+  </data>
+  <data name="StatusCurrentSelectedIndex" xml:space="preserve">
+    <value>{1}项目{0}</value>
+  </data>
+  <data name="StatusSourceToTargetLanguage" xml:space="preserve">
+    <value>{0}到{1}</value>
+  </data>
+  <data name="TranslationResourceIDToolTip" xml:space="preserve">
+    <value>资源标识符</value>
+  </data>
+  <data name="RibbonSearchSourceToolTip" xml:space="preserve">
+    <value>在源中查找匹配项</value>
+  </data>
+  <data name="SuggestionResultTargetTooltip" xml:space="preserve">
+    <value>翻译建议</value>
+  </data>
+  <data name="DragDropCannotDetectFiles" xml:space="preserve">
+    <value>无法检测选定位置的文件</value>
+  </data>
+  <data name="ApplicationTitleFormat" xml:space="preserve">
+    <value>{0} - {1}</value>
+  </data>
+  <data name="RibbonBtnSuggestTitle" xml:space="preserve">
+    <value>建议</value>
+  </data>
+  <data name="RibbonBtnSaveToolTip" xml:space="preserve">
+    <value>保存 XLIFF 效件。</value>
+  </data>
+  <data name="RibbonBtnTranslateTitle" xml:space="preserve">
+    <value>翻译</value>
+  </data>
+  <data name="TranslationUnitsIDColTitle" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="ContextMenuCopy" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="XLFTargetExceedMaximumWidth" xml:space="preserve">
+    <value>翻译未通过最大宽度验证。 此资源的最大字符长度为 {0}。</value>
+  </data>
+  <data name="RibbonBtnSuggestToolTip" xml:space="preserve">
+    <value>获取有关所选资源的建议</value>
+  </data>
+  <data name="SuggestionResultProviderNameColTitle" xml:space="preserve">
+    <value>提供商名称</value>
+  </data>
+  <data name="TranslationUnitsStateColToolTip" xml:space="preserve">
+    <value>转换状态</value>
+  </data>
+  <data name="AboutEula" xml:space="preserve">
+    <value>本产品根据</value>
+  </data>
+  <data name="RibbonBtnSaveToolTipTitle" xml:space="preserve">
+    <value>保存 （Ctrl+S）</value>
+  </data>
+  <data name="SplashOpenLoading" xml:space="preserve">
+    <value>装载。。。</value>
+  </data>
+  <data name="RibbonFilterTranslatableToolTip" xml:space="preserve">
+    <value>使用可转换状态筛选匹配项</value>
+  </data>
+  <data name="RibbonSearchMatchCaseToolTip" xml:space="preserve">
+    <value>使用特定案例查找匹配项</value>
+  </data>
+  <data name="RibbonGrpNavigationTitle" xml:space="preserve">
+    <value>导航</value>
+  </data>
+  <data name="ErrorLoadingTranslationProviderConfig" xml:space="preserve">
+    <value>加载翻译提供程序管理器时遇到错误：{0}
+文件“{1}”
+在更正此问题之前，翻译服务将被禁用。</value>
+  </data>
+  <data name="RibbonBtnAboutTitle" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="ApplySuggestionButtonTitle" xml:space="preserve">
+    <value>应用建议</value>
+  </data>
+  <data name="AboutLine01" xml:space="preserve">
+    <value>多语言编辑器</value>
+  </data>
+  <data name="RibbonFilterMatchCaseToolTip" xml:space="preserve">
+    <value>使用特定于案例的匹配项进行筛选</value>
+  </data>
+  <data name="RibbonFilterTranslatableTitle" xml:space="preserve">
+    <value>翻译</value>
+  </data>
+  <data name="FatalErrorTranslationProvider" xml:space="preserve">
+    <value>尝试处理翻译服务请求时发生运行时错误。一个常见的原因是互联网连接断开。
+
+请检查消息选项卡以获取更多信息</value>
+  </data>
+  <data name="RibbonFilterResourceIDToolTip" xml:space="preserve">
+    <value>筛选资源 ID 中的匹配项</value>
+  </data>
+  <data name="ContextMenuUnlockSelection" xml:space="preserve">
+    <value>解锁选择</value>
+  </data>
+  <data name="RibbonBtnPreviousTitle" xml:space="preserve">
+    <value>上一行</value>
+  </data>
+  <data name="TranslationUnitsSourceColTitle" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="LocalizableDisableTitle" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="RibbonGrpXliffTitle" xml:space="preserve">
+    <value>XML 本地化数据（XLIFF）</value>
+  </data>
+  <data name="TelemetryAdministrator" xml:space="preserve">
+    <value>请以管理员身份运行编辑器以修改此设置。</value>
+  </data>
+  <data name="RibbonGrpHeaderResources" xml:space="preserve">
+    <value>资源</value>
+  </data>
+  <data name="SuggestionResultConfidenceColTitle" xml:space="preserve">
+    <value>可信度</value>
+  </data>
+  <data name="SuggestionResultSourceTooltip" xml:space="preserve">
+    <value>与翻译关联的源文本</value>
+  </data>
+  <data name="RemoveActiveFilter" xml:space="preserve">
+    <value>活动筛选器阻止显示所选资源。删除筛选器将允许选择资源。
+
+是否要自动删除筛选器并选择资源？</value>
+  </data>
+  <data name="TabMessagesTitle" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="RibbonBtnApplyFilterToolTip" xml:space="preserve">
+    <value>应用过滤器</value>
+  </data>
+  <data name="WarningCannotApplyMarkup" xml:space="preserve">
+    <value>标记不能应用于不可翻译或包含“新建”以外的翻译状态的资源。</value>
+  </data>
+  <data name="RibbonSearchTranslationToolTip" xml:space="preserve">
+    <value>查找翻译中的匹配项</value>
+  </data>
+  <data name="RibbonFilterMatchCaseToolTipTitle" xml:space="preserve">
+    <value>匹配大小写（Ctrl+Shift+H）</value>
+  </data>
+  <data name="TranslationUnitsIDColToolTip" xml:space="preserve">
+    <value>资源标识</value>
+  </data>
+  <data name="RibbonBtnUnlockSelectionTitle" xml:space="preserve">
+    <value>解锁选择</value>
+  </data>
+  <data name="RibbonBtnExitTitle" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="TranslatableTitle" xml:space="preserve">
+    <value>翻译：</value>
+  </data>
+  <data name="ErrorMsgSelectedNew" xml:space="preserve">
+    <value>将翻译状态设置为“新建”将重置所有相关翻译。
+
+是否确实要重置翻译并将翻译状态设置为“新建”？</value>
+  </data>
+  <data name="RibbonBtnSaveTitle" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="AboutAppCopyright" xml:space="preserve">
+    <value>© {0} 微软公司。保留所有权利。</value>
+  </data>
+  <data name="LocalizableDisableMessage" xml:space="preserve">
+    <value>设置可翻译 = “否”将重置任何现有翻译。
+
+是否确实要将“可翻译”状态设置为“否”并丢弃任何相关翻译？</value>
+  </data>
+  <data name="RibbonBtnClearBuildWarningToolTip" xml:space="preserve">
+    <value>清除源已更新，但不清除相关翻译生成警告。</value>
+  </data>
+  <data name="ContextMenuCut" xml:space="preserve">
+    <value>剪切</value>
+  </data>
+  <data name="RibbonBtnTranslateToolTipTitle" xml:space="preserve">
+    <value>平移 （Ctrl+T）</value>
+  </data>
+  <data name="RibbonBtnCutTitle" xml:space="preserve">
+    <value>剪切</value>
+  </data>
+  <data name="RibbonBtnPreviousToolTipTitle" xml:space="preserve">
+    <value>上一行 （Ctrl+&lt;）</value>
+  </data>
+  <data name="RibbonBtnSearchPreviousToolTipTitle" xml:space="preserve">
+    <value>上一页 （Shift+F8）</value>
+  </data>
+  <data name="ErrorTitleSelectedNew" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="SavingErrorDetectedWhileOpening" xml:space="preserve">
+    <value>在XLIFF文件中检测到错误，是否要放弃更改？</value>
+  </data>
+  <data name="RibbonBtnSearchNext" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="RibbonBtnCopyToolTip" xml:space="preserve">
+    <value>将所选文本复制到剪贴板。</value>
+  </data>
+  <data name="TranslationUnitsTargetColTitle" xml:space="preserve">
+    <value>翻译</value>
+  </data>
+  <data name="TelemetryRead" xml:space="preserve">
+    <value>阅读有关遥测收集的详细信息</value>
+  </data>
+  <data name="RibbonSearchMatchCaseToolTipTitle" xml:space="preserve">
+    <value>匹配大小写（Ctrl+H）</value>
+  </data>
+  <data name="ErrorDescriptionTitle" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="RibbonCtrlSearchToolTip" xml:space="preserve">
+    <value>在资源网格中搜索</value>
+  </data>
+  <data name="RibbonSearchResourceIDToolTip" xml:space="preserve">
+    <value>在资源 ID 中查找匹配项</value>
+  </data>
+  <data name="RibbonCtrlSearchToolTipTitle" xml:space="preserve">
+    <value>搜索 （Ctrl+F）</value>
+  </data>
+  <data name="RibbonFilterTranslatableComboToolTip" xml:space="preserve">
+    <value>可转换状态以进行筛选</value>
+  </data>
+  <data name="TranslationUnitIsLocalizableNo" xml:space="preserve">
+    <value>不</value>
+  </data>
+  <data name="SavingErrorDetected" xml:space="preserve">
+    <value>在XLIFF文件中检测到错误，是否要放弃更改并退出应用程序？</value>
+  </data>
+  <data name="RibbonCtrlFilterToolTip" xml:space="preserve">
+    <value>筛选资源网格中的结果</value>
+  </data>
+  <data name="TelemetryYes" xml:space="preserve">
+    <value>同意</value>
+  </data>
+  <data name="ContextMenuPaste" xml:space="preserve">
+    <value>粘贴</value>
+  </data>
+  <data name="ErrorMsgOpenFile" xml:space="preserve">
+    <value>加载文件时遇到错误，请确保编辑器已正确安装。</value>
+  </data>
+  <data name="RibbonGrpHelpTitle" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="AboutEulaLink" xml:space="preserve">
+    <value>微软软件许可条款</value>
+  </data>
+  <data name="RibbonBtnNextTitle" xml:space="preserve">
+    <value>下一行</value>
+  </data>
+  <data name="RibbonBtnApplyFilterToolTipTitle" xml:space="preserve">
+    <value>应用（Ctrl+Shift+A）</value>
+  </data>
+  <data name="RibbonBtnXliffCloseFileTitle" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="RibbonTabHomeTitle" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="TranslationProgressSource" xml:space="preserve">
+    <value>正在翻译：</value>
+  </data>
+  <data name="SuggestionResultConfidenceTooltip" xml:space="preserve">
+    <value>信心</value>
+  </data>
+  <data name="RibbonFilterTranslationToolTip" xml:space="preserve">
+    <value>筛选翻译中的匹配项</value>
+  </data>
+  <data name="ErrorTranslationProvider" xml:space="preserve">
+    <value>翻译提供商遇到错误：{0}
+在更正此问题之前，翻译服务将不可用。</value>
+  </data>
+  <data name="MachineTranslationTitle" xml:space="preserve">
+    <value>自动：</value>
+  </data>
+  <data name="MultilingualUpdateIDContent" xml:space="preserve">
+    <value>{0} [原始文件：{1}]</value>
+  </data>
+  <data name="RibbonGrpHeaderFilterText" xml:space="preserve">
+    <value>发短信</value>
+  </data>
+  <data name="SuggestionResultRequestIdTooltip" xml:space="preserve">
+    <value>结果序列</value>
+  </data>
+  <data name="CancelTranslationButton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="SuggestionResultTargetTooltipPropertyFormat" xml:space="preserve">
+    <value>
+{0}: {1}</value>
+  </data>
+  <data name="RibbonGrpSearchTitle" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="FilterStateNewTitleToolTip" xml:space="preserve">
+    <value>筛选转换状态为“新建”的资源</value>
+  </data>
+  <data name="TranslationSourceToolTip" xml:space="preserve">
+    <value>原始资源文本（源）</value>
+  </data>
+  <data name="ContextMenuSource" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="RibbonBtnCopyToolTipTitle" xml:space="preserve">
+    <value>复制 （Ctrl+C）</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>多语言编辑器</value>
+  </data>
+  <data name="SuggestionResultSourceColTitle" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="RibbonGrpStateFilterTitle" xml:space="preserve">
+    <value>状态筛选器</value>
+  </data>
+  <data name="WarningFileChangedOutsideMATenvironment" xml:space="preserve">
+    <value>{0}
+
+此文件已在多语言编辑器之外进行了修改。
+是否要重新加载它？</value>
+  </data>
+  <data name="ApplicationReadOnlyFlag" xml:space="preserve">
+    <value>{0} [只读]</value>
+  </data>
+  <data name="SplashOpenDocument" xml:space="preserve">
+    <value>打开文件： {0}</value>
+  </data>
+  <data name="HelpLink" xml:space="preserve">
+    <value>https://go.microsoft.com/fwlink/?LinkID=262054</value>
+  </data>
+  <data name="ContextMenuTarget" xml:space="preserve">
+    <value>翻译</value>
+  </data>
+  <data name="RibbonGlobalMatchCase" xml:space="preserve">
+    <value>区分大小写</value>
+  </data>
+  <data name="RibbonGrpClipboardTitle" xml:space="preserve">
+    <value>剪贴板</value>
+  </data>
+  <data name="TranslationUnitsIsTranslatedColToolTip" xml:space="preserve">
+    <value>自动平移指示器</value>
+  </data>
+  <data name="RibbonBtnLockSelectionTitle" xml:space="preserve">
+    <value>锁定选择</value>
+  </data>
+  <data name="TranslationUnitStateUnknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="RibbonBtnResetTitle" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="TranslationUnitsTargetColToolTip" xml:space="preserve">
+    <value>目标翻译</value>
+  </data>
+  <data name="RibbonBtnResetFilterToolTip" xml:space="preserve">
+    <value>将筛选器重置为初始状态</value>
+  </data>
+  <data name="FilterStateFinalTitle" xml:space="preserve">
+    <value>筛选“最终”状态</value>
+  </data>
+  <data name="RibbonBtnUnlockSelectionToolTipTitle" xml:space="preserve">
+    <value>解锁所选内容（Ctrl+Shift+M）</value>
+  </data>
+  <data name="RibbonGrpFilterTitle" xml:space="preserve">
+    <value>筛选器</value>
+  </data>
+  <data name="ErrorNotsupportedFile" xml:space="preserve">
+    <value>编辑器不支持选定的文件类型。</value>
+  </data>
+  <data name="RibbonBtnSuggestToolTipTitle" xml:space="preserve">
+    <value>建议 （Ctrl+G）</value>
+  </data>
+  <data name="RibbonBtnUnlockSelectionToolTip" xml:space="preserve">
+    <value>解锁选定的源文本</value>
+  </data>
+  <data name="QuestionSaveChanges" xml:space="preserve">
+    <value>是否要保存更改？</value>
+  </data>
+  <data name="TranslationUnitsSequenceColToolTip" xml:space="preserve">
+    <value>序列</value>
+  </data>
+  <data name="ErrorResourceIdTitle" xml:space="preserve">
+    <value>资源标识</value>
+  </data>
+  <data name="RibbonBtnSourceChangedToolTip" xml:space="preserve">
+    <value>筛选源更改的翻译单元</value>
+  </data>
+  <data name="MultilingualUpdateContent" xml:space="preserve">
+    <value>请验证翻译的准确性，因为源字符串在翻译后已更新。</value>
+  </data>
+  <data name="CommentMaskedText" xml:space="preserve">
+    <value>&lt;&lt;点击添加注释&gt;&gt;</value>
+  </data>
+</root>
