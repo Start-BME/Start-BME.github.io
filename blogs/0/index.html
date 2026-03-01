@@ -96,15 +96,17 @@
     <footer>
         <p>Markdown 转写基于 </p><a href="https://github.com/showdownjs/showdown">Showdown</a><p>. 点击查看 </p><a href="https://Start-BME.github.io/blogs/sd/LICENSE">MIT 协议</a>
     </footer>
-<!-- Markdown 文字在下面代码的 text 变量里写，支持多行-->
-<script type="text/javascript">
-function compile(){
-var text = `# This is test  
-for mark**down**`
-var converter = new showdown.Converter();
-var html = converter.makeHtml(text);
-document.getElementById("result").innerHTML = html;
-}
-</script>
+<!-- Markdown 文件从同一目录的 Markdown.md 读取 -->
+
+    <script type="text/javascript" src="sd/showdown.min.js">
+        function compile(){
+            var text = `# This is test  
+            for mark**down**`
+            var converter = new showdown.Converter();
+            var html = converter.makeHtml(text);
+            document.getElementById("result").innerHTML = html;
+        }
+    </script>
+
 </body>
 </html>
